@@ -1,0 +1,179 @@
+[0.057s] Invoking command in '/home/alansi77/custom_flightmode/build/px4_ros2_cpp': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alansi77/custom_flightmode/src/px4-ros2-interface-lib/px4_ros2_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alansi77/custom_flightmode/install/px4_ros2_cpp
+[0.176s] -- The C compiler identification is GNU 11.4.0
+[0.450s] -- The CXX compiler identification is GNU 11.4.0
+[0.629s] -- Detecting C compiler ABI info
+[0.756s] -- Detecting C compiler ABI info - done
+[0.770s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.770s] -- Detecting C compile features
+[0.771s] -- Detecting C compile features - done
+[0.776s] -- Detecting CXX compiler ABI info
+[0.951s] -- Detecting CXX compiler ABI info - done
+[0.968s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.968s] -- Detecting CXX compile features
+[0.969s] -- Detecting CXX compile features - done
+[0.972s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.220s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.334s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.371s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.380s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.552s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.559s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.573s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.595s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.624s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.775s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.785s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.823s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.719s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.203s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.227s] -- Looking for pthread.h
+[5.369s] -- Looking for pthread.h - found
+[5.370s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.517s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.519s] -- Found Threads: TRUE  
+[5.669s] -- Found px4_msgs: 2.0.1 (/home/alansi77/custom_flightmode/install/px4_msgs/share/px4_msgs/cmake)
+[5.694s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.711s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.720s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.724s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.872s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.894s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.905s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.906s] -- Configured cppcheck include dirs: /home/alansi77/custom_flightmode/src/px4-ros2-interface-lib/px4_ros2_cpp/include
+[5.906s] -- Configured cppcheck exclude dirs and/or files: 
+[5.916s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.917s] -- Configured cpplint exclude dirs and/or files: 
+[5.922s] -- Added test 'lint_cmake' to check CMake code style
+[5.934s] -- Added test 'uncrustify' to check C / C++ code style
+[5.934s] -- Configured uncrustify additional arguments: 
+[5.936s] -- Added test 'xmllint' to check XML markup files
+[5.940s] -- Configuring done
+[6.000s] -- Generating done
+[6.015s] -- Build files have been written to: /home/alansi77/custom_flightmode/build/px4_ros2_cpp
+[6.032s] Invoked command in '/home/alansi77/custom_flightmode/build/px4_ros2_cpp' returned '0': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alansi77/custom_flightmode/src/px4-ros2-interface-lib/px4_ros2_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alansi77/custom_flightmode/install/px4_ros2_cpp
+[6.035s] Invoking command in '/home/alansi77/custom_flightmode/build/px4_ros2_cpp': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alansi77/custom_flightmode/build/px4_ros2_cpp -- -j8 -l8
+[6.113s] [  4%] [32mBuilding CXX object CMakeFiles/integration_utils.dir/test/integration/util.cpp.o[0m
+[6.113s] [  4%] [32mBuilding CXX object CMakeFiles/unit_utils.dir/test/unit/utils/util.cpp.o[0m
+[6.113s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[6.118s] [ 10%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/health_and_arming_checks.cpp.o[0m
+[6.119s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[6.119s] [ 14%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/message_compatibility_check.cpp.o[0m
+[6.120s] [ 14%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/manual_control_input.cpp.o[0m
+[6.120s] [ 17%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/mode.cpp.o[0m
+[11.292s] [ 19%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[23.410s] [ 19%] Built target gtest_main
+[23.424s] [ 21%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/mode_executor.cpp.o[0m
+[36.758s] [ 23%] [32m[1mLinking CXX static library libgtest.a[0m
+[39.238s] [ 23%] Built target gtest
+[39.644s] [ 25%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/overrides.cpp.o[0m
+[63.713s] [ 27%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/registration.cpp.o[0m
+[114.594s] [ 29%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/wait_for_fmu.cpp.o[0m
+[146.002s] [ 31%] [32m[1mLinking CXX shared library libunit_utils.so[0m
+[146.428s] [ 31%] Built target unit_utils
+[148.456s] [ 34%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/direct_actuators.cpp.o[0m
+[149.466s] [ 36%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/peripheral_actuators.cpp.o[0m
+[164.540s] [ 40%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/goto.cpp.o[0m
+[164.560s] [ 40%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/experimental/attitude.cpp.o[0m
+[179.456s] [ 44%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/experimental/rates.cpp.o[0m
+[179.460s] [ 44%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/experimental/trajectory.cpp.o[0m
+[193.617s] [ 46%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/navigation/experimental/local_position_measurement_interface.cpp.o[0m
+[194.622s] [ 48%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/navigation/experimental/global_position_measurement_interface.cpp.o[0m
+[206.779s] [ 51%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/attitude.cpp.o[0m
+[206.886s] [ 53%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/global_position.cpp.o[0m
+[239.464s] [ 55%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/angular_velocity.cpp.o[0m
+[241.501s] [ 57%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/local_position.cpp.o[0m
+[620.182s] [ 59%] [32m[1mLinking CXX shared library libintegration_utils.so[0m
+[621.324s] [ 59%] Built target integration_utils
+[720.472s] [ 63%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/utils/geodesic.cpp.o[0m
+[720.541s] [ 63%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/utils/map_projection_impl.cpp.o[0m
+[883.937s] [ 65%] [32m[1mLinking CXX shared library libpx4_ros2_cpp.so[0m
+[892.366s] [ 65%] Built target px4_ros2_cpp
+[892.464s] [ 74%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/global_navigation.cpp.o[0m
+[892.469s] [ 74%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/arming_check.cpp.o[0m
+[892.469s] [ 74%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/local_navigation.cpp.o[0m
+[892.469s] [ 74%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/global_navigation.cpp.o[0m
+[892.470s] [ 76%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/local_navigation.cpp.o[0m
+[892.470s] [ 78%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/mode.cpp.o[0m
+[892.470s] [ 82%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/main.cpp.o[0m
+[892.470s] [ 82%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/modes.cpp.o[0m
+[1386.917s] [ 85%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/utils/frame_conversion.cpp.o[0m
+[1396.632s] [ 87%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/utils/geodesic.cpp.o[0m
+[1416.835s] [ 89%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/utils/geometry.cpp.o[0m
+[1424.250s] [ 91%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/utils/map_projection_impl.cpp.o[0m
+[1429.765s] [ 93%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/mode_executor.cpp.o[0m
+[1447.840s] [ 95%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/overrides.cpp.o[0m
+[1818.176s] [ 97%] [32m[1mLinking CXX executable px4_ros2_cpp_unit_tests[0m
+[1820.847s] [ 97%] Built target px4_ros2_cpp_unit_tests
+[1883.864s] [100%] [32m[1mLinking CXX executable integration_tests[0m
+[1886.514s] [100%] Built target integration_tests
+[1886.840s] Invoked command in '/home/alansi77/custom_flightmode/build/px4_ros2_cpp' returned '0': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alansi77/custom_flightmode/build/px4_ros2_cpp -- -j8 -l8
+[1886.987s] Invoking command in '/home/alansi77/custom_flightmode/build/px4_ros2_cpp': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alansi77/custom_flightmode/build/px4_ros2_cpp
+[1887.032s] -- Install configuration: ""
+[1887.032s] -- Execute custom install script
+[1887.035s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/library_path.sh
+[1887.046s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/library_path.dsv
+[1887.092s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/common/context.hpp
+[1887.103s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/common/frame.hpp
+[1887.114s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/common/requirement_flags.hpp
+[1887.125s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/common/setpoint_base.hpp
+[1887.137s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/events.hpp
+[1887.148s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/groups.dox
+[1887.160s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/health_and_arming_checks.hpp
+[1887.171s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/manual_control_input.hpp
+[1887.183s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/message_compatibility_check.hpp
+[1887.194s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/mode.hpp
+[1887.206s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/mode_executor.hpp
+[1887.217s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/node_with_mode.hpp
+[1887.229s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/overrides.hpp
+[1887.241s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/wait_for_fmu.hpp
+[1887.252s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/groups.dox
+[1887.263s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/peripheral_actuators.hpp
+[1887.275s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/direct_actuators.hpp
+[1887.298s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/attitude.hpp
+[1887.309s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/rates.hpp
+[1887.321s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/trajectory.hpp
+[1887.332s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/goto.hpp
+[1887.343s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/groups.dox
+[1887.355s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/global_position_measurement_interface.hpp
+[1887.366s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/local_position_measurement_interface.hpp
+[1887.378s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/navigation_interface_base.hpp
+[1887.389s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/navigation/groups.dox
+[1887.401s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/odometry/angular_velocity.hpp
+[1887.412s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/odometry/attitude.hpp
+[1887.423s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/odometry/global_position.hpp
+[1887.435s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/odometry/groups.dox
+[1887.446s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/odometry/local_position.hpp
+[1887.457s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/utils/frame_conversion.hpp
+[1887.469s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/utils/geodesic.hpp
+[1887.480s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/utils/geometry.hpp
+[1887.491s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/utils/groups.dox
+[1887.503s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/utils/message_version.hpp
+[1887.516s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/utils/subscription.hpp
+[1887.528s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/battery.hpp
+[1887.540s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/groups.dox
+[1887.551s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/home_position.hpp
+[1887.562s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/land_detected.hpp
+[1887.574s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/vehicle_status.hpp
+[1887.585s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/vtol_status.hpp
+[1887.601s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/ament_index/resource_index/package_run_dependencies/px4_ros2_cpp
+[1887.613s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/ament_index/resource_index/parent_prefix_path/px4_ros2_cpp
+[1887.628s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/ament_prefix_path.sh
+[1887.639s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/ament_prefix_path.dsv
+[1887.650s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/path.sh
+[1887.662s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/path.dsv
+[1887.673s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.bash
+[1887.684s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.sh
+[1887.696s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.zsh
+[1887.707s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.dsv
+[1887.718s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/package.dsv
+[1887.738s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/ament_index/resource_index/packages/px4_ros2_cpp
+[1887.750s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/ament_cmake_export_targets-extras.cmake
+[1887.763s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[1887.775s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppConfig.cmake
+[1887.786s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppConfig-version.cmake
+[1887.797s] -- Symlinking: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/package.xml
+[1887.809s] -- Installing: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/lib/libpx4_ros2_cpp.so
+[1888.013s] -- Set runtime path of "/home/alansi77/custom_flightmode/install/px4_ros2_cpp/lib/libpx4_ros2_cpp.so" to ""
+[1888.016s] -- Installing: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppExport.cmake
+[1888.017s] -- Installing: /home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppExport-noconfig.cmake
+[1888.035s] Invoked command in '/home/alansi77/custom_flightmode/build/px4_ros2_cpp' returned '0': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alansi77/custom_flightmode/build/px4_ros2_cpp

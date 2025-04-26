@@ -1,0 +1,1 @@
+/home/alansi77/custom_flightmode/src/px4_msgs/msg/ArmingCheckRequest.msg

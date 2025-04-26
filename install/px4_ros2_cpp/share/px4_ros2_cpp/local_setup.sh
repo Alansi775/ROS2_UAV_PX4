@@ -1,0 +1,1 @@
+/home/alansi77/custom_flightmode/build/px4_ros2_cpp/ament_cmake_environment_hooks/local_setup.sh

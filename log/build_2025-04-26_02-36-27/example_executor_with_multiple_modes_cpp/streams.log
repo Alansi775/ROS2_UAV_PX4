@@ -1,0 +1,75 @@
+[0.154s] Invoking command in '/home/alansi77/custom_flightmode/build/example_executor_with_multiple_modes_cpp': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp/lib:/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alansi77/custom_flightmode/src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp
+[0.552s] -- The C compiler identification is GNU 11.4.0
+[1.010s] -- The CXX compiler identification is GNU 11.4.0
+[1.194s] -- Detecting C compiler ABI info
+[1.422s] -- Detecting C compiler ABI info - done
+[1.449s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.450s] -- Detecting C compile features
+[1.451s] -- Detecting C compile features - done
+[1.461s] -- Detecting CXX compiler ABI info
+[1.733s] -- Detecting CXX compiler ABI info - done
+[1.751s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.752s] -- Detecting CXX compile features
+[1.753s] -- Detecting CXX compile features - done
+[1.757s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.771s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.775s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.403s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.750s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.879s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.155s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.172s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.212s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.275s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.349s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.551s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.563s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.410s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.074s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.811s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.830s] -- Looking for pthread.h
+[7.042s] -- Looking for pthread.h - found
+[7.042s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.267s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.281s] -- Found Threads: TRUE  
+[7.447s] -- Found px4_ros2_cpp: 0.0.1 (/home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake)
+[7.492s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.823s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.830s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.831s] -- Configured cppcheck include dirs: /home/alansi77/custom_flightmode/src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes/include
+[7.831s] -- Configured cppcheck exclude dirs and/or files: 
+[7.833s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.834s] -- Configured cpplint exclude dirs and/or files: 
+[7.834s] -- Added test 'lint_cmake' to check CMake code style
+[7.835s] -- Added test 'uncrustify' to check C / C++ code style
+[7.836s] -- Configured uncrustify additional arguments: 
+[7.836s] -- Added test 'xmllint' to check XML markup files
+[7.837s] -- Configuring done
+[7.841s] -- Generating done
+[7.852s] -- Build files have been written to: /home/alansi77/custom_flightmode/build/example_executor_with_multiple_modes_cpp
+[7.888s] Invoked command in '/home/alansi77/custom_flightmode/build/example_executor_with_multiple_modes_cpp' returned '0': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp/lib:/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alansi77/custom_flightmode/src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp
+[7.891s] Invoking command in '/home/alansi77/custom_flightmode/build/example_executor_with_multiple_modes_cpp': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp/lib:/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alansi77/custom_flightmode/build/example_executor_with_multiple_modes_cpp -- -j8 -l8
+[129.432s] [ 50%] [32mBuilding CXX object CMakeFiles/example_executor_with_multiple_modes.dir/src/main.cpp.o[0m
+[547.044s] [100%] [32m[1mLinking CXX executable example_executor_with_multiple_modes[0m
+[550.048s] [100%] Built target example_executor_with_multiple_modes
+[551.567s] Invoked command in '/home/alansi77/custom_flightmode/build/example_executor_with_multiple_modes_cpp' returned '0': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp/lib:/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alansi77/custom_flightmode/build/example_executor_with_multiple_modes_cpp -- -j8 -l8
+[552.202s] Invoking command in '/home/alansi77/custom_flightmode/build/example_executor_with_multiple_modes_cpp': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp/lib:/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alansi77/custom_flightmode/build/example_executor_with_multiple_modes_cpp
+[552.397s] -- Install configuration: ""
+[552.397s] -- Execute custom install script
+[552.398s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp/lib/example_executor_with_multiple_modes_cpp/example_executor_with_multiple_modes
+[552.398s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp/share/ament_index/resource_index/package_run_dependencies/example_executor_with_multiple_modes_cpp
+[552.398s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp/share/ament_index/resource_index/parent_prefix_path/example_executor_with_multiple_modes_cpp
+[552.398s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/environment/ament_prefix_path.sh
+[552.409s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/environment/ament_prefix_path.dsv
+[552.412s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/environment/path.sh
+[552.458s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/environment/path.dsv
+[552.567s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/local_setup.bash
+[552.627s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/local_setup.sh
+[552.675s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/local_setup.zsh
+[552.711s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/local_setup.dsv
+[552.712s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/package.dsv
+[552.740s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp/share/ament_index/resource_index/packages/example_executor_with_multiple_modes_cpp
+[552.774s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/cmake/example_executor_with_multiple_modes_cppConfig.cmake
+[552.774s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/cmake/example_executor_with_multiple_modes_cppConfig-version.cmake
+[552.775s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_executor_with_multiple_modes_cpp/share/example_executor_with_multiple_modes_cpp/package.xml
+[555.153s] Invoked command in '/home/alansi77/custom_flightmode/build/example_executor_with_multiple_modes_cpp' returned '0': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp/lib:/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alansi77/custom_flightmode/build/example_executor_with_multiple_modes_cpp

@@ -1,0 +1,75 @@
+[0.405s] Invoking command in '/home/alansi77/custom_flightmode/build/example_mode_rtl_replacement_cpp': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp/lib:/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alansi77/custom_flightmode/src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp
+[0.873s] -- The C compiler identification is GNU 11.4.0
+[1.191s] -- The CXX compiler identification is GNU 11.4.0
+[1.368s] -- Detecting C compiler ABI info
+[1.517s] -- Detecting C compiler ABI info - done
+[1.532s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.535s] -- Detecting C compile features
+[1.541s] -- Detecting C compile features - done
+[1.561s] -- Detecting CXX compiler ABI info
+[1.717s] -- Detecting CXX compiler ABI info - done
+[1.733s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.733s] -- Detecting CXX compile features
+[1.734s] -- Detecting CXX compile features - done
+[1.753s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.847s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.954s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.536s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.897s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.163s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.573s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.614s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.686s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.935s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.268s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.293s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.011s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.479s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.285s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.352s] -- Looking for pthread.h
+[6.667s] -- Looking for pthread.h - found
+[6.668s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.814s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.815s] -- Found Threads: TRUE  
+[7.128s] -- Found px4_ros2_cpp: 0.0.1 (/home/alansi77/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake)
+[7.267s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.640s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.651s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.652s] -- Configured cppcheck include dirs: /home/alansi77/custom_flightmode/src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement/include
+[7.652s] -- Configured cppcheck exclude dirs and/or files: 
+[7.655s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.655s] -- Configured cpplint exclude dirs and/or files: 
+[7.660s] -- Added test 'lint_cmake' to check CMake code style
+[7.667s] -- Added test 'uncrustify' to check C / C++ code style
+[7.667s] -- Configured uncrustify additional arguments: 
+[7.670s] -- Added test 'xmllint' to check XML markup files
+[7.678s] -- Configuring done
+[7.699s] -- Generating done
+[7.705s] -- Build files have been written to: /home/alansi77/custom_flightmode/build/example_mode_rtl_replacement_cpp
+[7.725s] Invoked command in '/home/alansi77/custom_flightmode/build/example_mode_rtl_replacement_cpp' returned '0': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp/lib:/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alansi77/custom_flightmode/src/px4-ros2-interface-lib/examples/cpp/modes/rtl_replacement -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp
+[7.799s] Invoking command in '/home/alansi77/custom_flightmode/build/example_mode_rtl_replacement_cpp': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp/lib:/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alansi77/custom_flightmode/build/example_mode_rtl_replacement_cpp -- -j8 -l8
+[7.863s] [ 50%] [32mBuilding CXX object CMakeFiles/example_mode_rtl.dir/src/main.cpp.o[0m
+[53.939s] [100%] [32m[1mLinking CXX executable example_mode_rtl[0m
+[55.926s] [100%] Built target example_mode_rtl
+[56.824s] Invoked command in '/home/alansi77/custom_flightmode/build/example_mode_rtl_replacement_cpp' returned '0': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp/lib:/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alansi77/custom_flightmode/build/example_mode_rtl_replacement_cpp -- -j8 -l8
+[57.252s] Invoking command in '/home/alansi77/custom_flightmode/build/example_mode_rtl_replacement_cpp': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp/lib:/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alansi77/custom_flightmode/build/example_mode_rtl_replacement_cpp
+[57.504s] -- Install configuration: ""
+[57.505s] -- Execute custom install script
+[57.505s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp/lib/example_mode_rtl_replacement_cpp/example_mode_rtl
+[57.505s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp/share/ament_index/resource_index/package_run_dependencies/example_mode_rtl_replacement_cpp
+[57.506s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp/share/ament_index/resource_index/parent_prefix_path/example_mode_rtl_replacement_cpp
+[57.518s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/environment/ament_prefix_path.sh
+[57.533s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/environment/ament_prefix_path.dsv
+[57.543s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/environment/path.sh
+[57.559s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/environment/path.dsv
+[57.573s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/local_setup.bash
+[57.590s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/local_setup.sh
+[57.612s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/local_setup.zsh
+[57.625s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/local_setup.dsv
+[57.640s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/package.dsv
+[57.661s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp/share/ament_index/resource_index/packages/example_mode_rtl_replacement_cpp
+[57.680s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/cmake/example_mode_rtl_replacement_cppConfig.cmake
+[57.693s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/cmake/example_mode_rtl_replacement_cppConfig-version.cmake
+[57.717s] -- Symlinking: /home/alansi77/custom_flightmode/install/example_mode_rtl_replacement_cpp/share/example_mode_rtl_replacement_cpp/package.xml
+[57.757s] Invoked command in '/home/alansi77/custom_flightmode/build/example_mode_rtl_replacement_cpp' returned '0': AMENT_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp:/home/alansi77/custom_flightmode/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alansi77/custom_flightmode/install/px4_ros2_cpp/lib:/home/alansi77/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alansi77/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alansi77/custom_flightmode/build/example_mode_rtl_replacement_cpp

@@ -1,0 +1,1 @@
+/home/alansi77/custom_flightmode/build/example_executor_with_multiple_modes_cpp/ament_cmake_environment_hooks/local_setup.bash
